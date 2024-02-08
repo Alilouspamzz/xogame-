@@ -57,7 +57,17 @@ function winner() {
     newGame(3, 5, 7);
         count++;
   } 
-  if ( count == 0  ) {
+  if ( 
+    square[1] != "" &&
+    square[2] != "" &&
+    square[3] != "" &&
+    square[4] != "" &&
+    square[5] != "" &&
+    square[6] != "" &&
+    square[7] != "" &&
+    square[8] != "" &&
+    square[9] != "" &&
+    count == 0  ) {
     title.innerHTML = "Drow";
     setInterval(function () {
       title.innerHTML += ".";
