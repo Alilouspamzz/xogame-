@@ -48,7 +48,8 @@ function winner() {
   }
   if (square[3] == square[5] && square[5] == square[7] && square[3] != "") {
     newGame(3, 5, 7);
-  } else if (
+  } 
+  if (
     square[1] != "" &&
     square[2] != "" &&
     square[3] != "" &&
@@ -59,7 +60,7 @@ function winner() {
     square[8] != "" &&
     square[9] != ""
   ) {
-    title.innerHTML = "NULL";
+    title.innerHTML = "Drow";
     setInterval(function () {
       title.innerHTML += ".";
     }, 1000);
