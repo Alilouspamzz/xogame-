@@ -74,7 +74,7 @@ function winner() {
     }, 1000);
     setTimeout(function () {
       location.reload();
-    }, 4000);
+    }, 3000);
   }
 }
 
